@@ -1,0 +1,120 @@
+body{
+    font-family: "Courier New", Courier, monospace;
+    margin: clamp(20px, 20px, 20px) 0;
+    color: white;
+    background-color: #121212;
+    background-image: url("https://static.nationalgeographic.es/files/styles/image_3200/public/006-library-biblioteca-angelica-a-roma_0002.jpg?w=1900&h=1523");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header, footer {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #121212;
+    color: white;
+    border-radius: 5px;
+    box-shadow: #121212 1px 1px 1px;
+    margin: clamp(20px, 20px, 20px) 0;
+    padding: 25px;
+    backdrop-filter: blur(20px);
+}
+
+blockquote {
+    padding: 25px;
+    border: 3px solid saddlebrown;
+    box-shadow: 0 4px 15px black;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(25px);
+    max-width: 2000px;
+    margin: 20px auto;
+
+        nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+h1 {
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+}
+
+h3  {
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+    text-indent: 25px;
+}
+
+main {
+    max-width: 1500px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 10px;
+    border: 3px solid brown;
+    box-shadow: 0 4px 15px black;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(25px);
+}
+table {
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px black;
+    margin: auto;
+
+}
+th{
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+td {
+    padding: 10px;
+    border-radius: 5px;
+}
+img {
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px black;
+}
+form {
+    width: 100%;
+    margin: 12px 0;
+    padding: 12px;
+    border: 2px solid brown;
+    border-radius: 5px;
+    background-color: black;
+    backdrop-filter: blur(20px);
+}
+fieldset, legend, label, input, textarea {
+    display: block;
+    width: 800px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+input, textarea {
+    background-color: black;
+}
+button {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid brown;
+    box-shadow: 0 4px 15px black;
+    background-color: rgba(165, 42, 42, 0.39);
+}
